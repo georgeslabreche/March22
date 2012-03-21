@@ -9,10 +9,8 @@
 #import <UIKit/UIKit.h>
 
 int main(int argc, char *argv[]) {
-    
+	
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-    int retVal = UIApplicationMain(argc, argv, nil, nil);
-    [pool release];
 	
 	// s is the pointer to the main screen of the app.
 	UIScreen *screen = [UIScreen mainScreen];
@@ -31,7 +29,10 @@ int main(int argc, char *argv[]) {
 		  originY,
 		  screenWidth,
 		  screenHeight
-	);
+		  );
+	
+    int retVal = UIApplicationMain(argc, argv, nil, nil);
+    [pool release];
 	
     return retVal;
 }

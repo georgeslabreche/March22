@@ -1,7 +1,7 @@
 TMarch22
 v7
 r0
-t353975647.906447
+t354035396.016117
 cCheck dependencies
 cProcessInfoPlistFile /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/Info.plist March22-Info.plist
 cCompileXIB /Users/glabreche/Desktop/March22/MainWindow.xib
@@ -10,7 +10,6 @@ cProcessPCH /var/folders/tH/tHh9cKvbEXS5-Bo-r7F5mU+++TI/-Caches-/com.apple.Xcode
 cCompileC build/March22.build/Debug-iphonesimulator/March22.build/Objects-normal/i386/main.o /Users/glabreche/Desktop/March22/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/March22.build/Debug-iphonesimulator/March22.build/Objects-normal/i386/March22AppDelegate.o /Users/glabreche/Desktop/March22/Classes/March22AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/March22.build/Debug-iphonesimulator/March22.build/Objects-normal/i386/March22ViewController.o /Users/glabreche/Desktop/March22/Classes/March22ViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/March22.build/Debug-iphonesimulator/March22.build/Objects-normal/i386/JANSLogHack.o /Users/glabreche/Desktop/March22/JANSLogHack.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/March22 normal i386
 cGenerateDSYMFile /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app.dSYM /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/March22
 cTouch /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app
@@ -100,11 +99,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app
-t1332282825
+t1332342596
 s238
 
 N/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app.dSYM
-t1332282825
+t1332342595
 s102
 
 N/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/Info.plist
@@ -116,8 +115,8 @@ t1332281882
 s1681
 
 N/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/March22
-t1332282825
-s17796
+t1332342595
+s17284
 
 N/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/March22ViewController.nib
 t1332281882
@@ -132,9 +131,9 @@ t1332282824
 s5224
 
 N/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/Objects-normal/i386/March22.LinkFileList
-c000000004F6905C800000000000001F6
-t1332282824
-s502
+c000000004F69EF02000000000000017B
+t1332342530
+s379
 
 N/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/Objects-normal/i386/March22AppDelegate.o
 t1332281882
@@ -145,13 +144,13 @@ t1332281882
 s37932
 
 N/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/Objects-normal/i386/main.o
-t1332282503
+t1332342595
 s7984
 
 N/Users/glabreche/Desktop/March22/main.m
-c000000004F6904830000000000000347
-t1332282499
-s839
+c000000004F69EF400000000000000349
+t1332342592
+s841
 i<UIKit/UIKit.h>
 
 N/var/folders/tH/tHh9cKvbEXS5-Bo-r7F5mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/March22_Prefix-cwyqfxgoxwgfgscfbmuoalowggqk/March22_Prefix.pch.gch
@@ -165,7 +164,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies353975647#353975647#0(0"0(0#1#0"8618942912#0"0#
+lSLF07#2@18"Check dependencies354035395#354035395#0(0"0(0#1#0"8612448384#0"0#
 
 CCompileC build/March22.build/Debug-iphonesimulator/March22.build/Objects-normal/i386/JANSLogHack.o /Users/glabreche/Desktop/March22/JANSLogHack.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s353975624.847917
@@ -207,8 +206,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@72"Compile /Users/glabreche/Desktop/March22/Classes/March22ViewController.m353974682#353974682#0(0"0(0#0#64"/Users/glabreche/Desktop/March22/Classes/March22ViewController.m8611101344#1952"    cd /Users/glabreche/Desktop/March22    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/March22-generated-files.hmap -I/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/March22-own-target-headers.hmap -I/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/March22-all-target-headers.hmap -iquote /Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/March22-project-headers.hmap -F/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator -I/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/include -I/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/DerivedSources/i386 -I/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/DerivedSources -include /var/folders/tH/tHh9cKvbEXS5-Bo-r7F5mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/March22_Prefix-cwyqfxgoxwgfgscfbmuoalowggqk/March22_Prefix.pch -c /Users/glabreche/Desktop/March22/Classes/March22ViewController.m -o /Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/Objects-normal/i386/March22ViewController.o0#
 
 CCompileC build/March22.build/Debug-iphonesimulator/March22.build/Objects-normal/i386/main.o /Users/glabreche/Desktop/March22/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s353975303.487774
-e353975303.614335
+s354035395.813962
+e354035395.884293
 r1
 xCompileC
 xbuild/March22.build/Debug-iphonesimulator/March22.build/Objects-normal/i386/main.o
@@ -217,7 +216,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@47"Compile /Users/glabreche/Desktop/March22/main.m353975303#353975303#0(0"0(0#0#39"/Users/glabreche/Desktop/March22/main.m8618636576#1910"    cd /Users/glabreche/Desktop/March22    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/March22-generated-files.hmap -I/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/March22-own-target-headers.hmap -I/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/March22-all-target-headers.hmap -iquote /Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/March22-project-headers.hmap -F/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator -I/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/include -I/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/DerivedSources/i386 -I/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/DerivedSources -include /var/folders/tH/tHh9cKvbEXS5-Bo-r7F5mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/March22_Prefix-cwyqfxgoxwgfgscfbmuoalowggqk/March22_Prefix.pch -c /Users/glabreche/Desktop/March22/main.m -o /Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/Objects-normal/i386/main.o0#
+lSLF07#2@47"Compile /Users/glabreche/Desktop/March22/main.m354035395#354035395#0(0"0(0#0#39"/Users/glabreche/Desktop/March22/main.m8620333728#1910"    cd /Users/glabreche/Desktop/March22    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/March22-generated-files.hmap -I/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/March22-own-target-headers.hmap -I/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/March22-all-target-headers.hmap -iquote /Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/March22-project-headers.hmap -F/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator -I/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/include -I/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/DerivedSources/i386 -I/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/DerivedSources -include /var/folders/tH/tHh9cKvbEXS5-Bo-r7F5mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/March22_Prefix-cwyqfxgoxwgfgscfbmuoalowggqk/March22_Prefix.pch -c /Users/glabreche/Desktop/March22/main.m -o /Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/glabreche/Desktop/March22/MainWindow.xib
 s353974681.840446
@@ -236,23 +235,23 @@ x/Users/glabreche/Desktop/March22/March22ViewController.xib
 lSLF07#2@36"CompileXIB March22ViewController.xib353974681#353974682#0(0"0(0#0#58"/Users/glabreche/Desktop/March22/March22ViewController.xib8590279008#636"    cd /Users/glabreche/Desktop/March22    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/March22ViewController.nib /Users/glabreche/Desktop/March22/March22ViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
 
 CGenerateDSYMFile /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app.dSYM /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/March22
-s353975625.146439
-e353975625.250862
+s354035395.923239
+e354035396.014416
 r1
 xGenerateDSYMFile
 x/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app.dSYM
 x/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/March22
-lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/March22.app.dSYM build/Debug-iphonesimulator/March22.app/March22353975625#353975625#0(0"0(0#0#80"/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/March228623694112#427"    cd /Users/glabreche/Desktop/March22    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/March22 -o /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app.dSYM0#
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/March22.app.dSYM build/Debug-iphonesimulator/March22.app/March22354035395#354035396#0(0"0(0#0#80"/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/March228618567360#427"    cd /Users/glabreche/Desktop/March22    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/March22 -o /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app.dSYM0#
 
 CLd /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/March22 normal i386
-s353975625.008781
-e353975625.146376
+s354035395.884362
+e354035395.923174
 r1
 xLd
 x/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/March22
 xnormal
 xi386
-lSLF07#2@85"Link /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/March22353975625#353975625#0(0"0(0#0#0"8618341024#932"    cd /Users/glabreche/Desktop/March22    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator -F/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator -filelist /Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/Objects-normal/i386/March22.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/March220#
+lSLF07#2@85"Link /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/March22354035395#354035395#0(0"0(0#0#0"8619110528#932"    cd /Users/glabreche/Desktop/March22    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator -F/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator -filelist /Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/Objects-normal/i386/March22.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/March220#
 
 CProcessInfoPlistFile /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app/Info.plist March22-Info.plist
 s353974681.837743
@@ -277,10 +276,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@29"Precompile March22_Prefix.pch353974682#353974682#0(0"0(0#0#51"/Users/glabreche/Desktop/March22/March22_Prefix.pch8612274272#1808"    cd /Users/glabreche/Desktop/March22    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/March22-generated-files.hmap -I/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/March22-own-target-headers.hmap -I/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/March22-all-target-headers.hmap -iquote /Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/March22-project-headers.hmap -F/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator -I/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/include -I/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/DerivedSources/i386 -I/Users/glabreche/Desktop/March22/build/March22.build/Debug-iphonesimulator/March22.build/DerivedSources -c /Users/glabreche/Desktop/March22/March22_Prefix.pch -o /var/folders/tH/tHh9cKvbEXS5-Bo-r7F5mU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/March22_Prefix-cwyqfxgoxwgfgscfbmuoalowggqk/March22_Prefix.pch.gch0#
 
 CTouch /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app
-s353975625.250921
-e353975625.257373
+s354035396.014472
+e354035396.016093
 r1
 xTouch
 x/Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app
-lSLF07#2@78"Touch /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app353975625#353975625#0(0"0(0#0#0"8623839392#328"    cd /Users/glabreche/Desktop/March22    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app0#
+lSLF07#2@78"Touch /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app354035396#354035396#0(0"0(0#0#0"8611226496#328"    cd /Users/glabreche/Desktop/March22    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/glabreche/Desktop/March22/build/Debug-iphonesimulator/March22.app0#
 
