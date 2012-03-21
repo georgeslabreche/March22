@@ -18,12 +18,15 @@ int main(int argc, char *argv[]) {
 	// Get the location and size of the screen.
 	CGRect screenBounds = [screen bounds];
 	
+	// Get the origin coordinates of the screen
 	CGFloat originX = screenBounds.origin.x;
 	CGFloat originY = screenBounds.origin.y;
 	
+	// Get the resolution of the screen
 	CGFloat screenWidth = screenBounds.size.width;
 	CGFloat screenHeight = screenBounds.size.height;
 	
+	// Log screen origin and resolution
 	NSLog(@"r == (%g, %g), %g × %g",
 		  originX,
 		  originY,
